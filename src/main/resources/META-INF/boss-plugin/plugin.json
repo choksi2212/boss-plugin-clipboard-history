@@ -1,0 +1,23 @@
+{
+  "manifestVersion": 1,
+  "pluginId": "ai.rever.boss.plugin.dynamic.clipboard",
+  "displayName": "Clipboard History",
+  "version": "0.1.0",
+  "apiVersion": "1.0.93",
+  "minApiVersion": "1.0.93",
+  "mainClass": "ai.rever.boss.plugin.dynamic.clipboard.ClipboardDynamicPlugin",
+  "type": "mixed",
+  "description": "Persistent clipboard ring buffer - the last 200 copied texts are searchable, pinnable, and one click away from being re-copied. Secrets are masked by default.",
+  "author": "choksi2212",
+  "url": "https://github.com/choksi2212/boss-plugin-clipboard-history",
+  "panel": {
+    "position": "left_bottom",
+    "priority": 84
+  },
+  "sandbox": {
+    "maxThreads": 4,
+    "maxRestartAttempts": 3,
+    "heartbeatIntervalMs": 5000
+  },
+  "isolationMode": "in-process"
+}
