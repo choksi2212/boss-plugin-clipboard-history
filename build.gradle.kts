@@ -10,7 +10,7 @@ group = "ai.rever.boss.plugin.dynamic"
 // 0.1.0: persistent clipboard ring buffer with secret masking, search, pins,
 // and MCP tools surfaced on the `boss` MCP server. Built against
 // boss-plugin-api 1.0.93.
-version = "0.1.0"
+version = "0.1.1"
 
 java {
     toolchain {
